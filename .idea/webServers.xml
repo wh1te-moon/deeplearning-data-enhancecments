@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bc2c539c-fbf1-4404-9f88-3969a32df981" name="aigroup">
+        <fileTransfer rootFolder="/home/aigroup" accessType="SFTP" host="202.116.3.50" port="2210" sshConfigId="208d6588-6864-4a46-8ed5-6b94cd77c66b" sshConfig="aigroup@202.116.3.50:2210 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="0d46e8c7-5d0c-4307-b78a-a3dc071d36b6" name="北京超算">
+        <fileTransfer rootFolder="/data/home/scy0525" accessType="SFTP" host="ssh.paracloud.com" port="22" sshConfigId="8a8c4a78-30ac-4900-919f-add7b860a850" sshConfig="scy0525@BSCC-N28@ssh.paracloud.com:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7193aa40-b250-4a78-8cf0-b11ea72c2ffc" name="v100">
+        <fileTransfer rootFolder="/home/ljy" accessType="SFTP" host="202.116.3.5" port="22" sshConfigId="e9d6d04c-ccaf-419c-b49a-3ce44d5e5762" sshConfig="ljy@202.116.3.5:22 password">
+          <advancedOptions>
+            <advancedOptions controlEncoding="utf-8" dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

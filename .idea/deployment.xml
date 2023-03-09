@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="aigroup" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="aigroup">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/group-members/xuhm/Deeplearning_Data_enhancements" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="v100">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/data/xhm/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="北京超算">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/run/Deeplearning-data-enhancements" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
