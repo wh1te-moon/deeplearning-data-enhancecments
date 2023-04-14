@@ -26,7 +26,7 @@ data_enhance = [
     transforms.RandomVerticalFlip(),
     transforms.RandomHorizontalFlip(),
     # [transforms.RandomResizedCrop(32)],
-    # [transforms.ColorJitter()],
+    [transforms.ColorJitter()],
     # [transforms.Grayscale(3)],
     # [transforms.AutoAugment()]
 ]

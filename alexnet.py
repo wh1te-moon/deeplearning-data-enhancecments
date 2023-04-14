@@ -36,3 +36,4 @@ class AlexNet(nn.Module):
 
 def alexnet(num_classes):
     return AlexNet(num_classes=num_classes)
+
