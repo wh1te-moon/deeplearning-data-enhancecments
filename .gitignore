@@ -5,3 +5,4 @@ MNIST/
 models/
 *.xlsx
 /png/
+.pth
